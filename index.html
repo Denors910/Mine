@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flexbox Navigation Bar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="logo">DENORS</div>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#proj">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+
+  <section class="hero" id="home">
+    <div class="hero-video">
+      <video autoplay muted loop playsinline>
+        <source src="danny.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="hero-text">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Where Adventure Meets Photography.</p>
+      <a href="#about" class="btn1">Dive in</a>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="about-text">
+      <h1>About Me</h1>
+      <article>
+        <h2>Hi! I’m Denors Amada</h2>
+        <p class="about-me">
+          An adventurer at heart with a camera in hand, I'm Denors Amada, deeply
+   inspired by the natural world. Driven by an insatiable curiosity, I explore
+   the Earth's hidden ecosystems and capture the stories of its diverse
+   inhabitants. From summiting misty mountains to diving into vibrant coral
+   reefs, I seek authentic experiences that highlight nature's resilience and
+   beauty. Currently available for collaborations and projects that promote
+   environmental awareness and conservation, let's create something
+   extraordinary together. My lens focuses on capturing the delicate balance of
+   our planet, from lush rainforests to intricate marine life. With a
+   commitment to responsible storytelling, I aim to inspire others to protect
+   and cherish our natural heritage. Let's connect and explore the endless
+   possibilities of showcasing the wonders of nature!
+        </p>
+      </article>
+      <!-- Skills Section Added Here -->
+      <section class="skills">
+        <h1>My Skills</h1>
+        <div class="skill">
+          <span class="skill-name">Photography</span>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 95%;">95%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <span class="skill-name">Video Editing</span>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 90%;">90%</div>
+          </div>
+        </div>
+        <div class="skill">
+          <span class="skill-name">Adventure Planning</span>
+          <div class="skill-bar">
+            <div class="skill-level" style="width: 90%;">90%</div>
+          </div>
+        </div>
+        <!-- Add more skills as needed -->
+      </section>
+      <a href="#contact" class="btn">Get Started</a>
+      <div class="about-image">
+        <img src="d.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section id="proj">
+    <div class="title">
+      <h1>PROJECT</h1>
+    </div>
+    <div class="main">
+      <div class="grid">
+        <div class="card">
+          <img class="thumb" src="9.jpg" alt="">
+        </div>
+        <div class="card">
+          <img class="thumb" src="8.jpg" alt="">
+        </div>
+        <div class="card">
+          <img class="thumb" src="7.png" alt="">
+        </div>
+        <div class="card">
+          <img class="thumb" src="6.jpg" alt=""/>
+        </div>
+        <div class="card">
+          <img class="thumb" src="5.jpg" alt=""/>
+        </div>
+        <div class="card">
+          <img class="thumb" src="4.jpg" alt=""/>
+        </div>
+        <div class="card">
+          <img class="thumb" src="3.jpg" alt=""/>
+        </div>
+        <div class="card">
+          <img class="thumb" src="2.jpg" alt=""/>
+        </div>
+        <div class="card">
+          <img class="thumb" src="1.jpg" alt=""/>
+        </div>
+      </div>
+    </div>
+  </section>
+          <!-- Contact Form -->
+        <div class="contact-form">
+          <h1>Contact Me </h1>
+           <h2>Let's Create Magic Together! ✨</h2>
+        <p>Feel free to reach out for collaborations or inquiries!</p>
+        <br>
+          <form>
+            <div class="form-group">
+              <label for="fullName">Full Name</label>
+              <input type="text" id="fullName" name="fullName" placeholder="Your Full Name">
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="Your Email Address">
+            </div>
+            <div class="form-group">
+              <label for="message">Type Your Message Here</label>
+              <textarea id="message" name="message" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <!-- End Contact Form HTML -->
+<!-- Add this right before </body> -->
+ <footer id="contact" class="gradient-footer">
+   <div class="footer-wave"></div>
+    <div class="footer-content">
+      <div class="contact-bubble">
+        <div class="contact-grid">
+          <div class="contact-item">
+            <i class="Address">Address:</i>
+            <p>Bato Mabinay Negros Oriental</p>
+          </div>
+          <div class="contact-item">
+            <i class="phone">Phone📞:</i>
+            <p>+63 963 172 4256</p>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope">Email✉️:</i>
+            <p>amadadenors@gmail.com</p>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>© 2023 Denors Amada | Adventure Photographer</p>
+        </div>
+      </div>
+    </div>
+ </footer>
+</body>
+</html>
+
